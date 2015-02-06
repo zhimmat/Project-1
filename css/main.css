@@ -19,7 +19,7 @@ h1 {
 
 h2{
   font-family:'Sigmar One', Georgia;
-  color:#f5e318;
+  color:#bd1a3c;
 }
 
 li {
@@ -50,10 +50,11 @@ ol {
 
 a{
   color: white;
+  background-color: grey;
 }
 
 a:hover {
-  color: orange;
+  background- color: #bd1a3c;
 }
 
 p{
@@ -95,7 +96,7 @@ font-size: 1.2rem;
 }
 
 nav{
-  background-color: darkorange;
+  background-color:#f5e318;
   text-align: center;
 }
 
@@ -106,13 +107,13 @@ nav li{
 
 nav a{
   display: inline-block;
-  padding:.7em;
-  background-color: black;
+  padding:.3em;
+  background-color: grey;
   color: white;
   margin: 0em;
-  border-radius: 8px;
+  border-radius: 5px;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.0rem;
 }
 
 nav ol{
@@ -141,4 +142,9 @@ margin:0em;
 footer{
 background-color: black;
 text-align: left;
+}
+
+.list{
+  margin: 0.1em;
+  background-color: #f5e318;
 }
