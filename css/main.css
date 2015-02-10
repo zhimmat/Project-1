@@ -3,7 +3,7 @@ html  {
 }
 header {
   background-color: #f5e318;
-  padding: 0.1em;
+  padding: 0.1em ;
   margin: .3em 0em .3em 0em;
 }
 h1 {
@@ -22,6 +22,11 @@ h2{
   color:#bd1a3c;
 }
 
+h3{
+font-family:'Sigmar One', Georgia;
+color:#bd1a3c;
+}
+
 li {
   font-weight:normal;
 
@@ -31,7 +36,7 @@ ul {
   }
   figcaption{
     font-style: italic;
-    color: white;
+    color: black;
   text-align:center;
   }
 }
@@ -54,18 +59,20 @@ a{
 }
 
 a:hover {
-  background- color: #bd1a3c;
+  background-color: #bd1a3c;
 }
 
 p{
-  font-family: arial; san serif;
-  font-size: 1.2rem;
-  color:white;
+  font-family: Georgia;
+  font-size: .8rem;
+  color:black;
 }
 
 blockquote{
   font-style: italic;
   line-height: .9;
+color:#f5e318;
+font-family: Georgia;
 }
 
 footer {
@@ -76,8 +83,8 @@ footer {
 
 dt {
   font-weight:bold;
-  font-family: Arial;
-  font-size: 1.2rem;
+  font-family: Georgia;
+  font-size: .8rem;
   margin: 0.5em 0em 0em 0em;
 }
 
@@ -86,7 +93,7 @@ dl{
 }
 
 dd{
-font-size: 1.2rem;
+font-size: .8rem;
 }
 
 .quote {
@@ -96,7 +103,7 @@ font-size: 1.2rem;
 }
 
 nav{
-  background-color:#f5e318;
+  background-color: #f5e318;
   text-align: center;
 }
 
@@ -111,7 +118,7 @@ nav a{
   background-color: grey;
   color: white;
   margin: 0em;
-  border-radius: 5px;
+  border-radius: 2px;
   text-decoration: none;
   font-size: 1.0rem;
 }
@@ -119,7 +126,7 @@ nav a{
 nav ol{
   list-style-type: none;
   margin: 0;
- padding: 0;
+  padding: 0;
 }
 
 img{
@@ -128,9 +135,10 @@ img{
 }
 
 figure{
-  border: 2px solid grey;
+  border: 2px solid yellow;
   padding: .7em;
   border-radius: 7px;
+  background-color:lightyellow;
 }
 
 .src{
