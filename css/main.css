@@ -75,7 +75,7 @@ blockquote{
   line-height: .9;
 color:#f5e318;
 font-family: Georgia;
-font-size:.8rem;
+font-size: 1rem;
 text-align: center;
 padding: 1em 0em 0em 0em;
 }
@@ -168,8 +168,10 @@ padding: .3em;
 }
 
 .quote{
-  font-size:.9rem;
+  font-size:3rem;
   font-family: Georgia;
+  color: #f5e318;
+  text-align: center;
 }
 
 .per{
@@ -182,4 +184,20 @@ font-size: .8rem;
   color: red;
   background-color: #f5e318;
   text-decoration: underline;
+}
+
+blockquote{
+  font-style: italic;
+  line-height: .9;
+  color:#f5e318;
+  font-family: Georgia;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1em 0em 0em 0em;
+}
+
+cite{
+  color:#f5e318;
+  text-align: center;
+  padding: 1em 0em 0em 0em;
 }
