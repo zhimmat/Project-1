@@ -20,6 +20,8 @@ h1 {
 h2{
   font-family:'Sigmar One', Georgia;
   color:#bd1a3c;
+  border-top: solid .2rem;
+  border-color: #f5e318;
 }
 
 h3{
@@ -75,7 +77,10 @@ blockquote{
 color:#f5e318;
 font-family: Georgia;
 font-size:.8rem;
+text-align: center;
+padding: 1em 0em 0em 0em;
 }
+
 
 footer {
   text-align: right;
